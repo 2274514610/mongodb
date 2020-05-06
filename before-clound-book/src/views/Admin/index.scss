@@ -1,0 +1,52 @@
+.admin_box {
+  width: 100%;
+  height: 100vh;
+  color: #333;
+
+  .sideMenu_box {
+    color: #fff;
+
+    .sideMenu_header {
+      h1 {
+        padding: 20px 0;
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        background-color: #002140
+      }
+    }
+  }
+
+  .topHeader_box {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title_wrapper {
+      font-size: 38px;
+      font-weight: 700;
+      width: 84%;
+      text-align: center;
+      padding-left: 16%;
+      box-sizing: border-box;
+      min-width: 420px
+    }
+
+    .user_wrapper {
+      display: flex;
+      min-width: 240px;
+      width: 16%;
+      .username_welcome {
+        padding-right: 20px;
+      }
+      .login_out {
+        cursor: pointer
+      }
+    }
+  }
+
+  .admin_content {
+    background-color: #fff;
+  }
+}
