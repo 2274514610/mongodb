@@ -20,4 +20,8 @@ router.use('/uploadToken',uploadRouter);  //关于上传图片的路由配置
 router.use('/swiper',swiperRouter);   //关于轮播图的路由配置
 router.use('/collection',collectionRouter);   //关于收藏的路由配置
 
+/*GET home page*/
+router.get('/',(req,res,next)=> {
+    res.render('index',{title: '云书后端'})
+});
 module.exports = router;
